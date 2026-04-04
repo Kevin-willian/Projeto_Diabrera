@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Parisienne&display=swap');
+
+body {
+    background: #000000;
+    color: #ffffff;
+    font-family: "Belleza", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.topo {
+    background-image: url('../assets/desktop/home-page/Rectangle\ 15.png');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    position: relative;
+}
+
+
+
+
+
+.topo .container {
+    position: relative;
+    z-index: 2;
+}
+
+
+
+
+.topo h5 {
+    font-family: "Parisienne", cursive;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+
+
+
+.topo input {
+    width: 60%;
+    border-radius: 30px;
+    padding: 12px;
+    border: none;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+
+
+
+.menu {
+    background: #E3D19F;
+}
+
+.menu a {
+    font-family: "Belleza", sans-serif;
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+
+
+
+.menu a:hover {
+    color: #fff;
+}
+
+
+
+
+
+.carousel img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+
+h4 {
+    font-family: "Parisienne", cursive;
+    letter-spacing: 2px;
+}
+
+
+
+
+.card {
+    background: #111;
+    border: none;
+    text-align: center;
+    color: #fff;
+    transition: 0.3s;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+.card img {
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+
+.card p {
+    font-family: "Belleza", sans-serif;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+
+
+
+.card small {
+    font-size: 13px;
+}
+
+
+
+
+.img-placeholder {
+    width: 100%;
+    height: 100px;
+    background: #d9d9d9;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.comprar-box {
+    background: #d9d9d9;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+
+.btn-custom {
+    width: 100%;
+    background: #d9d9d9;
+    color: #000;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+.btn-custom:hover {
+    background: #d9d9d9;
+    color: #000;
+}
+
+
+
+
+.bloco {
+    background: #ccc;
+    height: 120px;
+    border-radius: 10px;
+}
+
+
+
+
+footer {
+    background: #030303;
+    padding: 30px;
+}
+
+
+
+footer h5 {
+    font-family: "Parisienne", cursive;
+}
+
+
+
+footer p {
+    font-family: "Belleza", sans-serif;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+
+
+/*MUDA A COR DE FUNDO E DAS LETRAS POR CAUSA DO BOOTSTRAP*/
+
+
+body {
+    background: #000 !important;
+    color: #fff !important;
+}
+
+
+.container {
+    background: transparent !important;
+}
+
+
+section,
+div {
+    background-color: transparent;
+}
+
+
+p,
+h1, h2, h3, h4, h5, h6,
+small,
+a {
+    color: #fff !important;
+}
+
+
+.card {
+    background: #000 !important;
+    color: #fff !important;
+}
+
+
+.row {
+    background: transparent !important;
+}
