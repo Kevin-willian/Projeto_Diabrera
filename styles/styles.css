@@ -3,12 +3,17 @@
 
 
 .parisienne-regular {
-  font-family: "Parisienne", cursive;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Parisienne", cursive;
 }
 
@@ -16,8 +21,59 @@ p {
     font-family: "Belleza", sans-serif;
 }
 
-body {
+.icone-menu {
+    padding: 2rem;
+}
+
+.carrossel {
+    margin-bottom: 120px;
+    margin-top: 25px;
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
     
+}
+
+body {
     background-color: black;
     color: white;
 }
+
+
+.corpo-superior img {
+    
+    width: 336px;
+    height: 535px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.corpo-superior p {
+    font-size: 30px;
+}
+h1 {
+    font-size: 80px;
+}
+h2{
+    font-size: 60px;
+}
+
+.icone-menu button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+/*
+largura das imagens do corpo
+    
+*/

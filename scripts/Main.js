@@ -1,2 +1,3 @@
-console.log("teste")
-console.log("teste")
+function saudacao() {
+    alert("clicado")
+}
