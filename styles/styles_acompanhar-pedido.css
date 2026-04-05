@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Parisienne&display=swap');
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Belleza", sans-serif;
+}
+
+
+p {
+    font-family: "Belleza", sans-serif;
+}
 
 body{
     background-color: black;
@@ -25,8 +43,8 @@ body{
 }
 
 .status-box{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     transform: rotate(45deg);  
     margin: 50px;
     border: thick double #351bc9;
@@ -36,6 +54,9 @@ body{
   margin-top: 10px;
 }
 
+.titulo-produtos {
+  margin-bottom: 30px;
+}
 .produto-img {
   width: 200px;
   height: 100px;
@@ -47,4 +68,8 @@ body{
 .rodape img{
     width: 150px;
 
+}
+
+.juros{
+    font-size: small;
 }
