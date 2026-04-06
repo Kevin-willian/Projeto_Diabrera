@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Parisienne&display=swap');
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Belleza", sans-serif;
+}
+
+
+p {
+    font-family: "Belleza", sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.topo-info{
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; 
+    width: 100%;
+    height: 10em;
+    max-width: 100%;
+}
+.foto-deperfil{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.status-pedido{
+    padding: 50px;
+}
+
+.status-box{
+    width: 70px;
+    height: 70px;
+    transform: rotate(45deg);  
+    margin: 50px;
+    border: thick double #351bc9;
+}
+
+.status-item p {
+  margin-top: 10px;
+}
+
+.titulo-produtos {
+  margin-bottom: 30px;
+}
+.produto-img {
+  width: 200px;
+  height: 100px;
+  background-color: #ccc;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin: 0 auto;
+}
+.rodape img{
+    width: 150px;
+
+}
+
+.juros{
+    font-size: small;
+}
