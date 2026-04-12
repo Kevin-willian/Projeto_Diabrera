@@ -60,10 +60,14 @@ body{
 .produto-img {
   width: 200px;
   height: 100px;
-  background-color: #ccc;
+  
   border-radius: 10px;
   margin-bottom: 10px;
   margin: 0 auto;
+}
+
+.produto-img:hover{
+    transform: scale(1.03);
 }
 .rodape img{
     width: 150px;
