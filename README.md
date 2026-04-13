@@ -1,4 +1,4 @@
-# Projeto_Diabrera
+# Projeto E-commerce de produtos e serviços
 Projeto integrador 3º semestre, curso ADS
 
 # Descrição :

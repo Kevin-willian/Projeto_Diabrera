@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    min-height: 100vh;
+    background-image: url(../assets/desktop/home-page/teste-4-redi.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.login-box{
+    position:relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    width: 100%;
+    max-width: 22rem;
+    padding: 2rem;
+}
+
+.logo img{
+    width: 7rem;
+    margin-bottom: 1.5rem;
+}
+
+.input-custom{
+    width: 100%;
+    padding: 0.7rem 1rem;
+    margin: 0.6rem 0;
+    border: none;
+    border-radius: 2rem;
+    outline: none;
+}
+
+
+.btn-login{
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 1rem ;
+    border-radius: 2rem;
+    background: transparent;
+    color: white;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-login:hover{
+    background: white;
+    color: black;
+}
+
+.link{
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+link{
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: rgba(255, 255,255,0.7 );
+}
+
+
+.link a:hover {
+  text-decoration: underline;
+}
