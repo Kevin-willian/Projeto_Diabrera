@@ -8,6 +8,15 @@
     font-style: normal;
 }
 
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+
+}
+
 h1,
 h2,
 h3,
@@ -19,6 +28,7 @@ h6 {
 
 p {
     font-family: "Belleza", sans-serif;
+    max-width: 60ch;
 }
 
 .icone-menu {
@@ -30,18 +40,12 @@ p {
     margin-top: 25px;
 }
 
-* {
 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: white;
-    
-}
 
 body {
     background-color: black;
     color: white;
+    font-size: 16px;
 }
 
 
@@ -72,6 +76,37 @@ h2{
     display: flex;
     align-items: center;
     gap: 8px;
+}
+
+
+.preco-wrapper h5 {
+    margin-bottom: 0;
+    line-height: 1;
+    width: auto;
+    transform: translateY(6px);
+}
+
+.preco-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Alinhamento matemático */
+    gap: 10px;
+    margin-bottom: 2.5rem;
+}
+
+
+
+.imagem-carrinho {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-carrinho img {
+    width: 100%;
+    height: auto;
 }
 /*
 largura das imagens do corpo
