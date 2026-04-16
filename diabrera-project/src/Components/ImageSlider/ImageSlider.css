@@ -1,0 +1,82 @@
+.ImageSlider {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+.Images {
+    height: 500px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middleImage {
+    height: 350px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px 1px;
+    z-index: 1;
+
+}
+
+.rightImage {
+    height: 230px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    transform: translateX(10px);
+}
+
+.leftImage {
+    height: 230px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    transform: translateX(-15px);
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    transform: translateY(-5);
+}
+
+.rightButton {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 100%;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftButton {
+    transform: scaleX(-1);
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 100%;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dots {
+    height: 5px;
+    width: 5px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+.dotsPlace {
+    display: flex;
+    gap: 10px;
+}
