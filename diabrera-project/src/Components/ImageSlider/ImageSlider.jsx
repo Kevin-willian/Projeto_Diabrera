@@ -4,12 +4,12 @@ import { IoIosArrowBack } from "react-icons/io";
 import gsap from 'gsap';
 
 
-const image1 = "src/assets/1.jpg";
-const image2 = "src/assets/2.jpg";
-const image3 = "src/assets/3.jpg";
-const image4 = "src/assets/4.jpg";
-const image5 = "src/assets/5.jpg";
-const image6 = "src/assets/6.jpg";
+const image1 = "src/assets/1.png";
+const image2 = "src/assets/2.png";
+const image3 = "src/assets/3.png";
+const image4 = "src/assets/4.png";
+const image5 = "src/assets/5.png";
+const image6 = "src/assets/6.png";
 
 const imageArray = [image1,image2,image3,image4,image5,image6];
 
