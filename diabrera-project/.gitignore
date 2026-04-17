@@ -11,6 +11,10 @@ node_modules
 dist
 dist-ssr
 *.local
+<<<<<<< HEAD
+.env
+=======
+>>>>>>> main
 
 # Editor directories and files
 .vscode/*
@@ -22,9 +26,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+<<<<<<< HEAD
+=======
 package-lock.json
 package.json
 .config
 tsconfig.node.json
 .json
 vite.
+>>>>>>> main
