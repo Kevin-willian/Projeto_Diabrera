@@ -3,15 +3,15 @@ import "./ImageSlider.css"
 import { IoIosArrowBack } from "react-icons/io";
 import gsap from 'gsap';
 
+import img1 from '../../assets/1.png'
+import img2 from '../../assets/2.png'
+import img3 from '../../assets/3.png'
+import img4 from '../../assets/4.png'
+import img5 from '../../assets/5.png'
+import img6 from '../../assets/6.png'
 
-const image1 = "src/assets/1.png";
-const image2 = "src/assets/2.png";
-const image3 = "src/assets/3.png";
-const image4 = "src/assets/4.png";
-const image5 = "src/assets/5.png";
-const image6 = "src/assets/6.png";
 
-const imageArray = [image1,image2,image3,image4,image5,image6];
+const imageArray = [img1, img2, img3, img4, img5, img6];
 
 function ImageSlider() {
 
