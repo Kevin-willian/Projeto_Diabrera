@@ -43,7 +43,7 @@ p {
 
 
 body {
-    background-color: rgba(139, 0, 0, 0.326);
+    background: linear-gradient(0deg,#0a0006 65%, #1a0010);
     color: white;
     font-size: 16px;
 }
