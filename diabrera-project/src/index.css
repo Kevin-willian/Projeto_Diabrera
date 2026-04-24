@@ -1,4 +1,114 @@
-body{
-    margin: 0;
-    padding:0;
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Parisienne&display=swap');
+
+
+.parisienne-regular {
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Parisienne", cursive;
+}
+
+p {
+    font-family: "Belleza", sans-serif;
+    max-width: 60ch;
+}
+
+.icone-menu {
+    padding: 2rem;
+}
+
+.carrossel {
+    margin-bottom: 120px;
+    margin-top: 25px;
+}
+
+
+
+body {
+    background: linear-gradient(0deg,#0a0006 65%, #1a0010);
+    color: white;
+    font-size: 16px;
+}
+
+
+.corpo-superior img {
+    
+    width: 336px;
+    height: 535px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.corpo-superior p {
+    font-size: 30px;
+}
+h1 {
+    font-size: 80px;
+}
+h2{
+    font-size: 60px;
+}
+
+.icone-menu button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.preco-wrapper h5 {
+    margin-bottom: 0;
+    line-height: 1;
+    width: auto;
+    transform: translateY(6px);
+}
+
+.preco-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Alinhamento matemático */
+    gap: 10px;
+    margin-bottom: 2.5rem;
+}
+
+
+
+.imagem-carrinho {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-carrinho img {
+    width: 100%;
+    height: auto;
+}
+/*
+largura das imagens do corpo
+    
+*/

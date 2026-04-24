@@ -29,7 +29,7 @@
     border-radius: 10px;
     transform: translateX(40px);
     z-index: -9;
-    filter: blur(3px) saturate(0.5);
+    filter: blur(2px) saturate(0.5);
 }
 .leftImage{
     height: 240px;
@@ -38,7 +38,7 @@
     border-radius: 10px;
     transform: translateX(-40px);
     z-index: -9;
-    filter: blur(3px) saturate(0.5);
+    filter: blur(2px) saturate(0.5);
 }
 .buttons{
     display: flex;
