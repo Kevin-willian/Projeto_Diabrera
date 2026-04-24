@@ -43,7 +43,7 @@ function ImageSlider() {
         else{
             setMidImage(midImage+1);
         }
-        //----------------GSAP ANIMATIONS-------------------------
+        
         gsap.fromTo('.middleImage',
             {x:-200,opacity:0,scale:0.6},
             {x:0,opacity:1,scale:1,duration:0.5}
@@ -64,7 +64,7 @@ function ImageSlider() {
         else{
             setMidImage(midImage-1);
         }
-        //----------------GSAP ANIMATIONS-------------------------
+
         gsap.fromTo('.middleImage',
             {x:200,opacity:0,scale:0.6},
             {x:0,opacity:1,scale:1,duration:0.5}
