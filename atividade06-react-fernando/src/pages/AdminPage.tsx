@@ -96,7 +96,7 @@ function AdminPage({ onLogout }: IAdminPageProps) {
         </div>
       </main>
 
-      <Footer nomeAluno="Seu Nome Completo Aqui" disciplina="Desenvolvimento Web" />
+      <Footer nomeAluno="Kevin Willian Dias Milhomem * Kaiky Lobo Colicchio Primo * Matheus Henrique Costa Oliveira" disciplina="Desenvolvimento Web" />
 
       {toast && <div className="toast-admin">{toast}</div>}
     </div>
