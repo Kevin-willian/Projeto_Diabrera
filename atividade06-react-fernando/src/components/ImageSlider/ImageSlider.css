@@ -1,0 +1,108 @@
+.ImageSlider {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Images {
+  height: 470px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middleImage {
+  height: 340px;
+  width: 540px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 0 30px 2px rgba(93, 0, 32, 0.6);
+  border: 1px solid rgba(201, 169, 110, 0.3);
+}
+
+.rightImage {
+  height: 240px;
+  width: 380px;
+  object-fit: cover;
+  border-radius: 10px;
+  transform: translateX(40px);
+  z-index: -9;
+  filter: blur(2px) saturate(0.5);
+}
+
+.leftImage {
+  height: 240px;
+  width: 380px;
+  object-fit: cover;
+  border-radius: 10px;
+  transform: translateX(-40px);
+  z-index: -9;
+  filter: blur(2px) saturate(0.5);
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  transform: translateY(-50px);
+}
+
+.rightButton {
+  transform: scaleX(-1);
+  padding: 10px;
+  border: 1px solid rgba(201, 169, 110, 0.4);
+  border-radius: 100%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.05);
+  color: #c9a96e;
+  transition: background 0.2s;
+}
+
+.leftButton {
+  padding: 10px;
+  border: 1px solid rgba(201, 169, 110, 0.4);
+  border-radius: 100%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.05);
+  color: #c9a96e;
+  transition: background 0.2s;
+}
+
+.rightButton:hover, .leftButton:hover {
+  background: rgba(201, 169, 110, 0.15);
+}
+
+.dots {
+  height: 6px;
+  width: 6px;
+  border: 1px solid rgba(201, 169, 110, 0.4);
+  border-radius: 100%;
+}
+
+.dots.active {
+  background-color: #c9a96e;
+  border-color: #c9a96e;
+}
+
+.dotsPlace {
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .middleImage { width: 280px; height: 200px; }
+  .rightImage, .leftImage { width: 160px; height: 140px; }
+  .Images { height: 280px; }
+  .ImageSlider { height: auto; padding: 1rem 0; }
+}

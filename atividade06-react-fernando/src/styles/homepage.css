@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Belleza&display=swap');
+
+.homepage {
+  background: linear-gradient(180deg, #0a0006 65%, #1a0010);
+  min-height: 100vh;
+  color: white;
+  font-family: 'Belleza', sans-serif;
+}
+
+.hp-header {
+  background: transparent;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(8px);
+}
+
+.hp-logo {
+  font-family: 'Parisienne', cursive;
+  font-size: 2.2rem;
+  color: white;
+  margin: 0;
+}
+
+.hp-link {
+  color: rgba(255,255,255,0.7);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+.hp-link:hover { color: white; }
+
+.hp-btn-login {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.3);
+  color: white;
+  padding: 5px 16px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.hp-btn-login:hover { background: rgba(255,255,255,0.1); }
+
+.hp-carrossel {
+  margin-top: 1rem;
+}
+
+.hp-titulo-secao {
+  font-family: 'Parisienne', cursive;
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.hp-texto {
+  font-family: 'Belleza', sans-serif;
+  font-size: 0.95rem;
+  color: rgba(255,255,255,0.75);
+  line-height: 1.7;
+  max-width: 60ch;
+}
+
+.hp-metodo-card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  padding: 1.25rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: border-color 0.2s, transform 0.2s;
+}
+.hp-metodo-card:hover {
+  border-color: rgba(93,0,32,0.6);
+  transform: translateY(-2px);
+}
+.hp-metodo-icone { font-size: 1.8rem; margin-bottom: 8px; }
+.hp-metodo-nome {
+  font-family: 'Parisienne', cursive;
+  font-size: 1.1rem;
+  color: white;
+  margin-bottom: 6px;
+}
+.hp-metodo-desc {
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.55);
+  flex: 1;
+  line-height: 1.5;
+}
+.hp-metodo-preco {
+  font-size: 1rem;
+  color: #c9a96e;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.hp-btn-whatsapp {
+  background: #25d366;
+  color: white;
+  padding: 10px 28px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 700;
+  transition: background 0.2s;
+}
+.hp-btn-whatsapp:hover { background: #1ebe5d; color: white; }
+
+.hp-footer {
+  background: rgba(0,0,0,0.5);
+  border-top: 1px solid rgba(255,255,255,0.06);
+  margin-top: 3rem;
+}
+.hp-footer-item {
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.5);
+  cursor: pointer;
+}
+.hp-footer-item:hover { color: white; }
+.hp-footer-wpp {
+  background: #25d366;
+  color: white;
+  padding: 4px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.login-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0a0006 0%, #1a0010 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  width: 100%;
+  max-width: 360px;
+  padding: 2.5rem 2rem;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(201,169,110,0.2);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.login-titulo {
+  font-family: 'Parisienne', cursive;
+  font-size: 2.8rem;
+  color: #c9a96e;
+  margin-bottom: 4px;
+}
+
+.login-subtitulo {
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.4);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.login-input {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 25px;
+  background: rgba(255,255,255,0.06);
+  color: white;
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.login-input:focus { border-color: rgba(201,169,110,0.5); }
+.login-input::placeholder { color: rgba(255,255,255,0.35); }
+
+.login-btn {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 25px;
+  border: 1px solid rgba(201,169,110,0.5);
+  background: transparent;
+  color: white;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 4px;
+}
+.login-btn:hover { background: rgba(201,169,110,0.15); }
+
+.login-erro {
+  font-size: 0.78rem;
+  color: #e07a8a;
+  margin: 0;
+}
+
+.login-hint {
+  margin-top: 1.25rem;
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.4);
+}
+.login-hint a { color: rgba(201,169,110,0.8); text-decoration: none; }
+.login-hint a:hover { color: #c9a96e; }
